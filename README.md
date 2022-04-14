@@ -29,3 +29,8 @@ This is a REST API for a Book renting service built for fun and learning with Fa
 - Create you database with `python manage.py runserver`
 - Finally run the API
   `python manage.py runserver`
+  
+ ## Authentication
+ for django administration:
+ email      : `admin@gmail.com`
+ password   : `admin`
