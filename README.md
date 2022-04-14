@@ -1,4 +1,4 @@
-## PIZZA DELIVERY API
+## BOOK RENTING API
 
 This is a REST API for a Book renting service built for fun and learning with FastAPI, SQLAlchemy and PostgreSQL.
 
@@ -28,4 +28,4 @@ This is a REST API for a Book renting service built for fun and learning with Fa
 - Install the requirements with `pip install -r requirements.txt`
 - Create you database with `python manage.py runserver`
 - Finally run the API
-  ``python manage.py runserver`
+  `python manage.py runserver`
