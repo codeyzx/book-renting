@@ -12,8 +12,8 @@ This is a REST API for a Book renting service built for fun and learning with Fa
 | _POST_   | `/auth/jwt/verify/`                 | _Verify the validity of a token_ | _All users_ |
 | _POST_   | `/rents/`                           | _Place an order_                 | _All users_ |
 | _POST_   | `/rents/`                           | _Get all orders_                 | _All users_ |
-| _GET_    | `/order/{rents_id}/`                | _Retrieve an order_              | _Superuser_ |
-| _PUT_    | `/orders/{rents_id}/`               | _Update an order_                | _All users_ |
+| _GET_    | `/rents/{rents_id}/`                | _Retrieve an order_              | _Superuser_ |
+| _PUT_    | `/rents/{rents_id}/`                | _Update an order_                | _All users_ |
 | _DELETE_ | `/delete/{rents_id}/`               | _Delete/Remove an order_         | _All users_ |
 | _GET_    | `/user/{user_id}/rents/`            | _Get user's orders_              | _All users_ |
 | _GET_    | `/user/{user_id}/rents/{rents_id}/` | _Get user's specific order_      |
